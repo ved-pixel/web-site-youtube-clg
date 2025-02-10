@@ -1,0 +1,265 @@
+
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Card Layout with Hover Effects</title>
+
+
+<style>
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: 300px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    height: 150px;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.date {
+    font-size: 14px;
+    color: #777;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.card-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-image"></div>
+            <div class="card-content">
+                <div class="date">14 Sep 2017</div>
+                <div class="stats">
+                    <span>34</span>
+                    <span>20</span>
+                </div>
+                <h3 class="card-title">THE SECRETS OF ECONOMIC</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                <a href="#" class="read-more">READ MORE</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image"></div>
+            <div class="card-content">
+                <div class="date">14 Sep 2017</div>
+                <div class="stats">
+                    <span>34</span>
+                    <span>20</span>
+                </div>
+                <h3 class="card-title">THE SECRETS OF ECONOMIC</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                <a href="#" class="read-more">READ MORE</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image"></div>
+            <div class="card-content">
+                <div class="date">14 Sep 2017</div>
+                <div class="stats">
+                    <span>34</span>
+                    <span>20</span>
+                </div>
+                <h3 class="card-title">THE SECRETS OF ECONOMIC</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                <a href="#" class="read-more">READ MORE</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html-->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Card Layout Example</title>
+
+
+    <style>
+
+css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    height: 150px;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #777;
+}
+
+.card-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-image"></div>
+            <div class="card-content">
+                <div class="info">
+                    <span class="date">14 Sep 2017</span>
+                    <span class="stats">34</span>
+                    <span class="stats">20</span>
+                </div>
+                <h3 class="card-title">THE SECRETS OF ECONOMIC</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                <a href="#" class="read-more">READ MORE</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image"></div>
+            <div class="card-content">
+                <div class="info">
+                    <span class="date">14 Sep 2017</span>
+                    <span class="stats">34</span>
+                    <span class="stats">20</span>
+                </div>
+                <h3 class="card-title">THE SECRETS OF ECONOMIC</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                <a href="#" class="read-more">READ MORE</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image"></div>
+            <div class="card-content">
+                <div class="info">
+                    <span class="date">14 Sep 2017</span>
+                    <span class="stats">34</span>
+                    <span class="stats">20</span>
+                </div>
+                <h3 class="card-title">THE SECRETS OF ECONOMIC</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                <a href="#" class="read-more">READ MORE</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
