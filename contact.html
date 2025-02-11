@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> <link rel="stylesheet" href="style.css" />
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,22 +21,27 @@
 </head>
 <body>
 
-    <header>
-        <nav>
-          <a href="index.html"> <img src="VED-01.png" /></a>
-          <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-              <li><a href="course.html">COURSE</a></li>
-              <li><a href="news.html">NEWS</a></li>
-              <li class="active"><a href="contact.html">CONTACT</a></li>
-            </ul>
-          </div>
-          <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-      </header>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-container container">
+      <a href="index.html"><img src="VED-01.png" /> </a>
+      <input type="checkbox" name="" id="">
+      <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>          
+        <ul class="menu-items">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="news.html">NEWS</a></li>
+          <li class="active"><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    
+    </nav>
+  </header>
 
 
   
@@ -88,25 +94,21 @@
             <div class="address-section">
             <h2>Address</h2>
             <div class="address-item">
-                <span class="icon">&#xf3c5;</span>
+                
                 <i class="fa-sharp fa-solid fa-location-dot"></i> <!-- Location icon -->
                 <p> Akshar pavillon vadodra Gujrat<br>India</p>
             </div>
+            
             <div class="address-item">
-                <span class="icon">&#xf095;</span> <!-- Phone icon -->
-                <p>(+123) 45 67 89 21</p>
-                <p>(+123) 45 67 89 21</p>
-            </div>
-            <div class="address-item">
-                <span class="icon">&#x1F4DE;</span> <!-- Phone icon -->
+              <i class="fa-solid fa-phone"></i> <!-- Phone icon -->
                 <p>(+123) 45 67 89 21</p>
             </div>
             <div class="address-item">
-                <span class="icon">&#x2709;</span> <!-- Email icon -->
+              <i class="fa-solid fa-square-envelope"></i> <!-- Email icon -->
                 <p><a href="vedvaidhya@gmail.com">vedvaidhya@gmail.com</a></p>
             </div>
             <div class="address-item">
-                <span class="icon">&#x1F5A8;</span> <!-- Website icon -->
+              <i class="fa-sharp fa-regular fa-globe-pointer"></i> <!-- Website icon -->
                 <p><a href="http://www.vedvaidhya@gmail.comm">www.vedvaidhya@gmail.com</a></p>
             </div>
         </div>
