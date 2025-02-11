@@ -11,17 +11,31 @@
         flex-direction: column;
     } 
 
+    .abc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: linear-gradient(rgba(0,0,0,0.504),
+        rgba(0,0,0,0.505)), url(https://htmldemo.net/universe/universe/images/bg/2.jpg) no-repeat center;
+        background-size: cover;
+        color: white;
+        gap: 20px;
+        font-weight: bold;
+    }
+
 
 /* Responsive Design cours  home page categories */
 @media (max-width: 1024px) {
     .category {
         width: 45%;
     }
+   
 }
 @media (max-width: 768px) {
     .category {
         width: 100%;
     }
+
 }
 
 
@@ -47,6 +61,18 @@
 @media (max-width: 480px) {
     .card {
         flex: 1 1 100%; /* 1 card per row for small devices */
+    }
+
+    .abc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: linear-gradient(rgba(0,0,0,0.504),
+        rgba(0,0,0,0.505)), url(https://htmldemo.net/universe/universe/images/bg/2.jpg) no-repeat center;
+        background-size: cover;
+        color: white;
+        gap: 20px;
+        font-weight: bold;
     }
 }
 
@@ -185,7 +211,7 @@
     .navbar .menu-items{
         padding-top: 10px;
         background: #fff;
-        height: 100vh;
+        /* height: 100vh; */
         max-width: 300px;
         transform: translate(-150%);
         display: flex;
@@ -195,6 +221,7 @@
         box-shadow:  5px 0px 10px 0px #aaa;
         overflow: scroll;
         text-align: center;
+        
     }
 
     .navbar .menu-items li{
@@ -360,6 +387,8 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
+
+    
 }
 
 /*--course--*/
@@ -610,6 +639,8 @@ h3{
     .gall {
         width: 90%;
     }
+
+    
 }
 
 
@@ -627,6 +658,17 @@ h3{
  
 }
 @media (max-width: 991.98px) {
+    .abc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: linear-gradient(rgba(0,0,0,0.504),
+        rgba(0,0,0,0.505)), url(https://htmldemo.net/universe/universe/images/bg/2.jpg) no-repeat center;
+        background-size: cover;
+        color: white;
+        gap: 20px;
+        font-weight: bold;
+    }
 
 }
 @media (max-width: 767.98px) {
@@ -634,7 +676,7 @@ h3{
         display: table;
         margin-left: auto;
     }
-
+    
 }
 @media (max-width: 575.98px) {
   
